@@ -1,0 +1,19 @@
+{
+  "name": "restaurant-reservation-ordering-engine",
+  "version": "1.0.0",
+  "description": "Restaurant Table Reservation & Online Ordering Engine with D1 Database and MERN Architecture",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client dev",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "seed": "npm --prefix server run seed",
+    "test": "npm --prefix server test",
+    "test:socket": "npm --prefix server run test:socket"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

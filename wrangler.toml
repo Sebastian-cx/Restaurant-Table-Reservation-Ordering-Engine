@@ -1,0 +1,13 @@
+name = "feasthub"
+main = "worker/index.js"
+compatibility_date = "2024-09-01"
+
+[assets]
+directory = "./client/dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "feasthub-db"
+database_id = "3677bb15-e020-4311-9188-841c4126ecbc"
